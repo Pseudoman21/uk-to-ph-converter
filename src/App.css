@@ -21,7 +21,7 @@ svg {
 
 .App-body {
   background-color: #191e29;
-  min-height: 100vh;
+  min-height: 82vh;
   display: flex;
   flex-direction: column;
   align-items: center;
