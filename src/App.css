@@ -20,7 +20,7 @@ svg {
 }
 
 .App-body {
-  background-color: #282c34;
+  background-color: #191e29;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,37 @@ svg {
 
 .App-link {
   color: #61dafb;
+}
+
+input {
+  width: 100% !important;
+}
+
+img {
+  height: auto;
+  border-radius: 10px;
+  width: 80px !important;
+}
+
+.current-time img {
+  border-radius: 10px;
+  width: 40px !important;
+}
+
+button {
+  position: relative;
+}
+
+button::after {
+  content: '';
+  width: calc(100% + 300px);
+  height: 1px;
+  background-color: #4b556357;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 @keyframes App-logo-spin {
