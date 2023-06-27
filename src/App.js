@@ -4,6 +4,8 @@ import TimeConverter from './components/TimeConverter'
 import CurrentDateTime from './components/CurrentDateTime'
 
 function App () {
+  const currentYear = new Date().getFullYear()
+
   return (
     <>
       <div className='App'>
@@ -20,7 +22,7 @@ function App () {
           target='_blank'
           rel='noreferrer'
         >
-          &copy; Pseudoman21, 2023
+          &copy; Pseudoman21, {currentYear}
         </a>
       </footer>
     </>
