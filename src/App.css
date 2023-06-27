@@ -45,19 +45,6 @@ input {
   position: relative;
 }
 
-input[type="time"]:before {
-    content: 'HH:mm ss';
-    color: #9d9d9d;
-    position: absolute;
-    background: #fff !important;
-    width: 80%;
-}
-
-input[type="time"]:focus:before {
-  width: 0;
-  content: '';
-}
-
 img {
   height: auto;
   border-radius: 10px;
