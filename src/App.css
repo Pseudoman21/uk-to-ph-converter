@@ -13,13 +13,19 @@
   }
 }
 
-.App-header {
+svg {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.App-body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
