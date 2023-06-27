@@ -40,6 +40,7 @@ svg {
 
 input {
   color: #000 !important;
+  background-color: #fff !important;
   width: 100% !important;
   position: relative;
 }
@@ -48,8 +49,8 @@ input[type="time"]:before {
     content: 'HH:mm ss';
     color: #9d9d9d;
     position: absolute;
-    background: #fff;
-    width: 100%;
+    background: #fff !important;
+    width: 80%;
 }
 
 input[type="time"]:focus:before {
