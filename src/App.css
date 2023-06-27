@@ -61,7 +61,7 @@ button {
 
 button::after {
   content: '';
-  width: calc(100% + 200px);
+  width: calc(100% + 100px);
   height: 1px;
   background-color: #4b556357;
   position: absolute;
