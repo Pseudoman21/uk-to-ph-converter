@@ -13,6 +13,10 @@
   }
 }
 
+.current-time p {
+  font-size: clamp(0.8rem, 3.5vw, 1.2rem) !important;
+}
+
 svg {
   width: 25px;
   height: 25px;
@@ -35,6 +39,7 @@ svg {
 }
 
 input {
+  color: #000 !important;
   width: 100% !important;
 }
 
@@ -45,8 +50,9 @@ img {
 }
 
 .current-time img {
-  border-radius: 10px;
-  width: 40px !important;
+  margin: auto 0;
+  border-radius: 4px;
+  width: clamp(20px, 3vw, 40px) !important;
 }
 
 button {
@@ -55,7 +61,7 @@ button {
 
 button::after {
   content: '';
-  width: calc(100% + 300px);
+  width: calc(100% + 200px);
   height: 1px;
   background-color: #4b556357;
   position: absolute;
