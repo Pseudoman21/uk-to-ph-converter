@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import TimeConverter from './components/TimeConverter'
+import CurrentDateTime from './components/CurrentDateTime'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='App'>
+      <header className='App-header bg-gray-800 text-white text-2xl py-4'>
+        <CurrentDateTime />
       </header>
+      <main className='App-body'>
+        <TimeConverter />
+      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
