@@ -136,8 +136,8 @@ const TimeConverter = () => {
     }
   }
   return (
-    <section className='pt-40'>
-      <div className='bg-gray-800 p-10 rounded-xl'>
+    <section className='pt-40 w-full'>
+      <div className='bg-gray-800 p-10 rounded-xl w-11/12 sm:w-3/4 md:w-5/12 lg:w-5/12 xl:w-3/12 mx-auto'>
         {ukToPh ? (
           <>
             {/*<div className='py-2'>
